@@ -1,81 +1,87 @@
-🦄 Startup Funding Dashboard
-A data-driven dashboard built using Streamlit to analyze startup funding trends in India. The application provides visual insights into funding patterns, investor behavior, and company-specific details.
+# 🦄 Startup Funding Dashboard
 
-🚀 Features
-📊 General Analysis
-Month-on-Month (MoM) chart – Total funding amount and funding count
+A **data-driven dashboard** built using **Streamlit** to analyze **startup funding trends in India**. The application provides visual insights into funding patterns, investor behavior, and company-specific details.
 
-Summary Cards:
+---
 
-Total Funding
+## 🚀 Features
 
-Maximum Funding
+### 📊 General Analysis
+- **Month-on-Month (MoM) chart** – Total funding amount and funding count
 
-Average Funding
+**Summary Cards:**
+- 💰 Total Funding  
+- 📈 Maximum Funding  
+- 📊 Average Funding  
+- 🏢 Total Funded Startups  
 
-Total Funded Startups
+---
 
-🧠 Sector Analysis
-Pie charts for:
+### 🧠 Sector Analysis
+**Pie charts for:**
+- 🔝 Top sectors by funding amount  
+- 🔢 Top sectors by startup count  
 
-Top sectors by funding amount
+---
 
-Top sectors by startup count
+### 💰 Funding Breakdown
+- 💼 Type of Funding analysis  
+- 🏙️ City-wise funding distribution  
 
-💰 Funding Breakdown
-Type of Funding analysis
+---
 
-City-wise funding distribution
+### 🏆 Top Rankings
+- 🚀 Top Startups – *Year-wise and Overall*  
+- 💸 Top Investors  
 
-🏆 Top Rankings
-Top Startups – Year-wise and Overall
+---
 
-Top Investors
+### 🌡️ Funding Heatmap
+- 📅 Visual heatmap showing funding trends over time  
 
-🌡️ Funding Heatmap
-Visual heatmap showing funding trends over time
+---
 
-🧩 Modules
-🔎 Investor Module
-Search by investor name
+## 🧩 Modules
 
-View:
+### 🔎 Investor Module
+- 🔍 Search by investor name  
+- 📋 View:
+  - Startups funded  
+  - Industries targeted  
+  - Most recent investments  
 
-Startups funded
+---
 
-Industries targeted
-
-Most recent investments
-
-🏢 Startup Module (In Development)
+### 🏢 Startup Module *(In Development)*
 View details like:
+- 🏷️ Name  
+- 👤 Founders  
+- 🏭 Industry / Subindustry  
+- 📍 Location  
+- 💵 Funding Rounds  
+- 📊 Stage  
+- 💼 Investors  
+- 📅 Funding Dates  
+- 🔁 Similar Companies  
 
-Name
+---
 
-Founders
+## 🛠️ Tech Stack
 
-Industry / Subindustry
+- 🐍 **Python 3**  
+- 🌐 **Streamlit** – Frontend + backend logic  
+- 📊 **Pandas** – Data manipulation  
+- 📈 **Matplotlib / Plotly / Altair** – Charts & visualizations  
+- 📁 **Custom CSV Dataset** – Startup funding data (India)  
 
-Location
+---
+##### install required libraries
+streamlit
+pandas
+matplotlib
+altair
+plotly
 
-Funding Rounds
+##### Run the Streamlit App
 
-Stage
-
-Investors
-
-Funding Dates
-
-Similar Companies
-
-🛠️ Tech Stack
-Python 3
-
-Streamlit – Frontend + backend logic
-
-Pandas – Data manipulation
-
-Matplotlib / Plotly / Altair – Charts & visualizations
-
-Custom CSV Dataset – Startup funding data (India)
-
+streamlit run app.py
