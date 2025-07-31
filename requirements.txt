@@ -17,7 +17,6 @@ jsonschema==4.25.0
 jsonschema-specifications==2025.4.1
 kiwisolver==1.4.8
 MarkupSafe==3.0.2
-matplotlib==3.10.3
 narwhals==2.0.0
 numpy==2.3.2
 packaging==25.0
@@ -43,8 +42,3 @@ typing_extensions==4.14.1
 tzdata==2025.2
 urllib3==2.5.0
 watchdog==6.0.0
-
-streamlit
-pandas
-plotly
-altair
